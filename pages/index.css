@@ -12,3 +12,57 @@
 For Inter, use Arial as a fallback and use the generic sans-serif family in case the user doesn’t have either of the other fonts.
 
 For Noto Serif, use Times New Roman as a fallback and use the generic serif family in case the user doesn’t have either of the other fonts. */
+
+.header {
+  padding: 30px 80px 40px;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__title {
+  margin: 183px 0 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  max-width: 729px;
+}
+
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
+  max-width: 683px;
+}
+
+.header__span-accent {
+  color: #3f96f3;
+  display: block;
+}
