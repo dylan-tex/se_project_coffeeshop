@@ -20,6 +20,8 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
   flex-direction: column;
   background-image: url(../images/background_header.svg);
   box-sizing: border-box;
+  position: relative;
+  background-size: cover;
 }
 
 .nav__links {
