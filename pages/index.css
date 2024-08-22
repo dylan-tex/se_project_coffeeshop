@@ -15,6 +15,11 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 
 .header {
   padding: 30px 80px 40px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_header.svg);
+  box-sizing: border-box;
 }
 
 .nav__links {
@@ -65,4 +70,18 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 .header__span-accent {
   color: #3f96f3;
   display: block;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__paragraph_address {
+  margin-top: auto;
 }
