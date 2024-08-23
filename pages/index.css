@@ -131,3 +131,7 @@ add font style */
   font-size: 20px;
   line-height: 30px;
 }
+
+.recipes__iframe {
+  border: none;
+}
