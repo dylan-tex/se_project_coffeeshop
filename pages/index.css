@@ -96,18 +96,28 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 
 .recipes__title {
   margin: 0 0 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .recipes__subtitle {
   margin: 0 0 80px;
+  font-family: "Noto Serif", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipes__videos {
   display: flex;
   justify-content: center;
   gap: 100px;
+  list-style-type: none;
 }
-
 /* remove dots
 remove default margin from ul
 add font style */
@@ -115,4 +125,9 @@ add font style */
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
