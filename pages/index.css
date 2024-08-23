@@ -30,6 +30,11 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
   gap: 20px;
   padding: 0;
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav {
@@ -57,6 +62,8 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .header__description {
@@ -70,14 +77,25 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 }
 
 .header__span-accent {
-  color: #3f96f3;
   display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
 }
 
 .header__footer {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .header__paragraph {
@@ -118,10 +136,6 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
   gap: 100px;
   list-style-type: none;
 }
-/* remove dots
-remove default margin from ul
-add font style */
-
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
