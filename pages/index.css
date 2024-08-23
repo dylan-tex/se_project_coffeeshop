@@ -87,3 +87,32 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 .header__paragraph_address {
   margin-top: auto;
 }
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitle {
+  margin: 0 0 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+/* remove dots
+remove default margin from ul
+add font style */
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
