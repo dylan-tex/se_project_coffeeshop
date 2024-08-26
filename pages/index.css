@@ -149,3 +149,95 @@ For Noto Serif, use Times New Roman as a fallback and use the generic serif fami
 .recipes__iframe {
   border: none;
 }
+
+.reservation {
+  padding: 100px 0 120px;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d9e7ff;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter", "Noto Serif", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+  display: block;
+}
+
+.form__label {
+  font-family: "Inter", "Noto Serif", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  font-family: "Inter", "Noto Serif", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__button {
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  padding: 20px 0;
+  background-color: #1878dc;
+  color: white;
+  transition: background-color 0.2s linear 0s;
+  font-family: "Inter", "Noto Serif", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #000;
+  /*font size and styling automatically inherited from parent no need to inherit manually*/
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 0;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
