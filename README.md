@@ -21,7 +21,7 @@ Here's the header:
 Here's the recipes with embedded videos:
 ![image](/images/demo/recipes-image.jpeg)
 
-Here's the reservation form with embedded videos:
+Here's the reservation form:
 ![images](/images/demo/reservation-image.jpeg)
 
 One of the more intersting aspects of the project has been our extensive use of Githhub and also interacting the terminal.
