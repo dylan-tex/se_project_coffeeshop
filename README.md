@@ -59,4 +59,4 @@ I am using Visual Studio on my macbook and so I have the "Emmet Live" extension 
 
 ## Plan on improving the project
 
-We will be creating a menu and contacts section next.
+This project could potentially be improved through use of animations.
