@@ -16,6 +16,12 @@
   margin: 0;
 }
 
+.about__wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 .about__title {
   color: white;
   position: absolute;
@@ -25,19 +31,32 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
-  margin: 119px 80px 173px 0;
   color: white;
   display: flex;
   justify-self: flex-end;
   gap: 20px;
   flex-direction: column;
   max-width: 660px;
+  margin-top: 119px;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-bottom: 173px;
 }
 
 .about__paragraph {
   margin: 0;
   color: inherit;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
