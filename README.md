@@ -46,13 +46,18 @@ You can also have it highlight the next occurence of a word using CMD + D. This 
 
 Here's an **example of multi-cursor selectors** in use changing class name for a label element:
 
+<div style="text-align: cengter;">
 ![images](/images/demo/multicursor.gif)
+</div>
 
 We were able to add a **menu**:
 ![menu](/images/demo/menu.jpeg)
 
 We were also able to add an **animation** to the project as seen here:
+
+<div style="text-align: center;">
 ![images](/images/demo/pulsate.gif)
+</div>
 
 This was achieved using a **BEM modifier** to a circle elemnet. CSS doesn't support circles natively to sou have to make a square with a **border-radius of 50%** as seen here.
 
