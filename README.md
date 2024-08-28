@@ -44,14 +44,14 @@ multi-cursor selectors allow you to change multiple lines of code simulatenously
 
 You can also have it highlight the next occurence of a word using CMD + D. This last two are especially useful for renaming classes all at once rather than having to do so individually which becomes prone to error.
 
-Here's an example of multi-cursor selectors in use changing class name for a label element:
+Here's an **example of multi-cursor selectors** in use changing class name for a label element:
 
 ![images](/images/demo/multicursor.gif)
 
-We were able to add a menu:
+We were able to add a **menu**:
 ![menu](/images/demo/menu.jpeg)
 
-We were also able to add an animation to the project as seen here:
+We were also able to add an **animation** to the project as seen here:
 ![images](/images/demo/pulsate.gif)
 
 This was achieved using a **BEM modifier** to a circle elemnet. CSS doesn't support circles natively to sou have to make a square with a **border-radius of 50%** as seen here.
