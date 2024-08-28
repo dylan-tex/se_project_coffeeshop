@@ -120,3 +120,5 @@ If you are new-- access to an AI tool (we are using Dot on a Discord server) can
 ## Plan on improving the project
 
 This project could potentially be improved through the ability to process payments online.
+
+We can also better delineate what occurs after submission of the form.
