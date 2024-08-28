@@ -21,9 +21,6 @@ Here's the header:
 Here's the recipes with embedded videos:
 ![image](/images/demo/recipes-image.jpeg)
 
-Here's the reservation form:
-![images](/images/demo/reservation-image.jpeg)
-
 One of the more intersting aspects of the project has been our extensive use of Githhub and also interacting the terminal.
 
 Probably an entire course could be taught on Github. It's a criticall safeguard against software engineers against accidentally corrupting a project. It allows us to save each version of the project in a remote repository on Github and revert back to a previous version of the project if necessary. It's lika a cloud for software engineers.
