@@ -20,3 +20,11 @@
   position: relative;
   left: -50px;
 }
+
+.nav__link {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}
