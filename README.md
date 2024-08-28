@@ -51,12 +51,74 @@ Here's an example of multi-cursor selectors in use changing class name for a lab
 
 ![images](/images/demo/multicursor.gif)
 
+We were able to add a menu:
+![menu](/images/demo/menu.jpeg)
+
+We were also able to add an animation to the project as seen here:
+![images](/images/demo/pulsate.gif)
+
+This was achieved using a **BEM modifier** to a circle elemnet. CSS doesn't support circles natively to sou have to make a square with a **border-radius of 50%** as seen here.
+
+```
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-color: #1878dc;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+  margin: 0;
+}
+```
+
+He made use of a keyframe animation we named **pulsate**:
+
+BEM Modifier is seen below
+
+`<div class="about__circle about__circle_animation_blurred"></div>`
+
+Here's the keyframes declaration in CSS an the animation attributs:
+
+```
+@keyframes pulsate {
+      0% {
+      transform: scale(1);
+      opacity: 0;
+      }
+      50% {
+      opacity: 0.6;
+      }
+      100% {
+      opacity: 1;
+      transform: scale(1.4);
+      }
+    }
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite alternate;
+}
+
+```
+
+Here's a breakdown of what the animation attirbutes do:
+
+- **pulsate** calls the keyform we created called pulsate
+- **1.3s** is the duration
+- **ease-in-out** means the animation starts and finished at a slower pace than during the middle
+- **infinite** is the number of times the animation runs
+- **alternate** is the behavior of animation at the end of each cycle-- in thise case it does the opposite after each cycle
+
+Lastly we included a footer which had links to our contact information.
+
 ## Instructions on Deployment
 
 In order to use the code, we must have terminal access, a Github account, and a code editor. To make best use of the emmet extensions shown above you need to have an emmet extension installed in your code editor.
 
 I am using Visual Studio on my macbook and so I have the "Emmet Live" extension by Yurii Semeniuk installed. It works well.
 
+If you are new-- access to an AI tool (we are using Dot on a Discord server) can help you debug your your code or help you find github and terminal commands.
+
 ## Plan on improving the project
 
-This project could potentially be improved through use of animations.
+This project could potentially be improved through the ability to process payments online.
