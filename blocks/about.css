@@ -2,6 +2,7 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 
 .about__circle {
@@ -30,7 +31,7 @@
   margin: 119px 80px 173px 0;
   color: white;
   display: flex;
-  justify-content: flex-end;
+  justify-self: flex-end;
   gap: 20px;
   flex-direction: column;
   max-width: 660px;
