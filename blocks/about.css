@@ -18,19 +18,25 @@
 .about__title {
   color: white;
   position: absolute;
-  margin: 0;
+  margin: 100px 0 0 80px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
 }
 
 .about__content {
-  margin: 0;
+  margin: 119px 80px 173px 0;
   color: white;
-  position: relative;
   display: flex;
   justify-content: flex-end;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 660px;
 }
 
 .about__paragraph {
   margin: 0;
   color: inherit;
-  max-width: 660px;
 }
