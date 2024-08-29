@@ -122,3 +122,6 @@ If you are new-- access to an AI tool (we are using Dot on a Discord server) can
 This project could potentially be improved through the ability to process payments online.
 
 We can also better delineate what occurs after submission of the form.
+
+_Please note_:
+some of these most recent updates to this projects have changed some of the design to comply with reviewer and project guidelines. Most significantly, opacity has been changed to 0 at completion of the animation and the alternate attribute has been removed.
