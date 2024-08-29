@@ -7,6 +7,7 @@
   box-sizing: border-box;
   position: relative;
   background-size: cover;
+  z-index: 1;
 }
 
 .header__image {
@@ -15,6 +16,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -40,7 +42,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -52,7 +54,7 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
