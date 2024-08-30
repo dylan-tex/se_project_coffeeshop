@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   /* This CSS will create a responsive page container that adjusts its width between 1100px and 1600px, and it will be centered on larger screens.*/
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
 }
